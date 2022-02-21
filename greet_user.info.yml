@@ -1,0 +1,7 @@
+name: Greet User
+type: module
+description: Greet a logged-in user
+core_version_requirement: ^8 || ^9
+package: custom greetings
+dependencies:
+  - drupal:block
