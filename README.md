@@ -10,7 +10,7 @@ Logged-on users will see this greeting in the left side-bar:
 
 ![image](https://user-images.githubusercontent.com/61120350/155034672-099fb82d-3b4a-4d88-84c2-bfd81f92bf73.png)
 
-Anonymous users will see this block, and will see something like this instead:
+Anonymous users will not see this block, and will see something like this instead:
 
 ![image](https://user-images.githubusercontent.com/61120350/155034885-2c119448-3a08-48e9-81a4-9b9420fb72e4.png)
 
