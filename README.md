@@ -1,4 +1,4 @@
-# greet_user
+# Greet User
 ## Overview
 
 The Greet User module inserts a block with a customized greeting into a Drupal site with the following characteristics:
