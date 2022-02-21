@@ -1,7 +1,7 @@
 # greet_user
 ## Overview
 
-- The Greet User module inserts a block with a customized greeting into a Drupal site with the following characteristics:
+The Greet User module inserts a block with a customized greeting into a Drupal site with the following characteristics:
 1. Drupal version: Drupal 8
 2. Theme: Bartik
 3. Install Profile: Standard
@@ -17,6 +17,7 @@ Anonymous users will see this block, and will see something like this instead:
 
 ## Installation instructions
 - Please clone this repo to your site's codebase in the web/modules/custom folder
+
 `cd /path/to/your/site/codebase/web/modules/custom`
 `git clone https://github.com/pondecino/greet_user.git`
 - After installation, your site's web/module/custom folder should look this on the site's host:
