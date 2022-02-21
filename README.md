@@ -13,7 +13,7 @@ Your last login was <date>.
 Visit your profile
 ```
   
-* "<user-name>" will be replaced with the user's actual account name
+* \<user-name\> will be replaced with the user's actual account name
 * The last login date will be shown, formatted as: December 21st, 2012 9:01am
 * The words "Visit your profile" should link to the user's profile page.
 
