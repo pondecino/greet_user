@@ -6,11 +6,22 @@ The Greet User module inserts a block with a customized greeting into a Drupal s
 2. Theme: Bartik
 3. Install Profile: Standard
 
-Logged-on users will see this greeting in the left side-bar:
+Logged-on users will see a greeting in the left side-bar, which states:
+```
+Hello <user-name>!
+Your last login was <date>.
+Visit your profile
+```
+  
+* <user-name> will be replaced with the user's actual account name
+* The last login date will be shown, formatted as: December 21st, 2012 9:01am
+* The words "Visit your profile" should link to the user's profile page.
+
+A screenshot is included below.
 
 ![image](https://user-images.githubusercontent.com/61120350/155034672-099fb82d-3b4a-4d88-84c2-bfd81f92bf73.png)
 
-Anonymous users will not see this block, and will see something like this instead:
+Anonymous users will not see this block, and will see the default appearance of the site's regions. A screenshot is included below. \
 
 ![image](https://user-images.githubusercontent.com/61120350/155034885-2c119448-3a08-48e9-81a4-9b9420fb72e4.png)
 
