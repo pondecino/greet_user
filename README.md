@@ -22,6 +22,7 @@ A screenshot is included below.
 ![image](https://user-images.githubusercontent.com/61120350/155034672-099fb82d-3b4a-4d88-84c2-bfd81f92bf73.png)
 
 Anonymous users will not see this block, and will see the default appearance of the site's regions. A screenshot is included below.
+
 ```
 web/modules/custom
 └── greet_user
@@ -32,6 +33,7 @@ web/modules/custom
             └── Block
                 └── GreetUser.php
 ```
+
 
 ![image](https://user-images.githubusercontent.com/61120350/155034885-2c119448-3a08-48e9-81a4-9b9420fb72e4.png)
 
