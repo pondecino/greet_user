@@ -23,16 +23,7 @@ A screenshot is included below.
 
 Anonymous users will not see this block, and will see the default appearance of the site's regions. A screenshot is included below.
 
-```
-web/modules/custom
-└── greet_user
-    ├── README.md
-    ├── greet_user.info.yml
-    └── src
-        └── Plugin
-            └── Block
-                └── GreetUser.php
-```
+
 
 
 ![image](https://user-images.githubusercontent.com/61120350/155034885-2c119448-3a08-48e9-81a4-9b9420fb72e4.png)
@@ -45,7 +36,16 @@ cd /path/to/your/site/codebase/web/modules/custom
 git clone https://github.com/pondecino/greet_user.git
 ```
 - After cloning, there will be a greet_user folder beneath web/modules/custom, as shown below.
-- ![image](https://user-images.githubusercontent.com/61120350/155035194-993d5ab5-7c33-4ada-80eb-71c2c71d6ffb.png) 
+```
+web/modules/custom
+└── greet_user
+    ├── README.md
+    ├── greet_user.info.yml
+    └── src
+        └── Plugin
+            └── Block
+                └── GreetUser.php
+```
 - Clear your site's caches, and navigate to the Extend path at admin/modules
 - Locate the Greet User module, check the box to install. 
 - Click the "Install" button at bottom of the page.
